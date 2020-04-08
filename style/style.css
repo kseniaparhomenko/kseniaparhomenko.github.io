@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+:root {
+    --main-bg-color: #009999;
+    --panel-bg-color: #7BFBFE;
+}
+body {
+    background-color: var(--main-bg-color);  
+     margin: 0;
+}
+
+.conteiner {
+  width: 620px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border:5px
+  solid #c716bd; 
+ background-color: var(--panel-bg-color); 
+}
+.list{
+  margin: 0 0 0 20px;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header img {
+  width: 270px;
+  height:250px ; 
+  border-radius: 50%;
+}
+
+.photo,
+.author {
+  display: inline-block;
+}
+
+
+.author {
+  margin-left: 15px;
+  vertical-align: top;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+li {
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.line{
+  border: none;
+  color: #eee;
+  background-color: #eee;
+  height: 2px;
+}
+.contacts a {
+  text-align: left;
+  display: block;
+  text-decoration: none;
+}
+.contacts li{
+list-style-type: none;
+}
+.resume-portfolio a {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    text-align: center;
+
+}
+.resume-portfolio li{
+list-style-type: none;
+}
