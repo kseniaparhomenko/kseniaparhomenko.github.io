@@ -8,3 +8,5 @@
 # kseniaparhomenko.github.io/LK_6/index.html
 # kseniaparhomenko.github.io/Місяць/index.html
 # kseniaparhomenko.github.io/Калькулятор/index.html
+# kseniaparhomenko.github.io/Лекція_7_1/index.html
+# kseniaparhomenko.github.io/Лекція_7_2/index.html
