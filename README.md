@@ -6,3 +6,5 @@
 # kseniaparhomenko.github.io/Батарейка/index.html
 # kseniaparhomenko.github.io/Title/index.html
 # kseniaparhomenko.github.io/LK_6/index.html
+# kseniaparhomenko.github.io/Місяць/index.html
+# kseniaparhomenko.github.io/Калькулятор/index.html
