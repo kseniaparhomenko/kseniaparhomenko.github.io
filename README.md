@@ -10,3 +10,4 @@
 # kseniaparhomenko.github.io/Калькулятор/index.html
 # kseniaparhomenko.github.io/Лекція_7_1/index.html
 # kseniaparhomenko.github.io/Лекція_7_2/index.html
+# kseniaparhomenko.github.io/Лабораторна_робота_№5/index.html
