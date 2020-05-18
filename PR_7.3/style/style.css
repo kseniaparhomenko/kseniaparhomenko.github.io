@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#322726;
+}
+
+.container{
+    width: 940px;
+    height:392px; 
+    margin: 100px auto;
+    position: relative;
+    background: #fff;
+}
+
+.burger {
+    height: 100%;
+    width: 330px;
+    position: absolute;
+}
+
+.burger_information{
+    width: 339px;
+    height: 213px;
+    background: #000;
+    margin-left: -13px;
+    bottom: 25px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    user-select: none;
+
+}
+.burger_name{
+    text-align: center;
+    font-size: 50px;
+    line-height: 38px;
+    margin-top: 42px;
+}
+
+ .burger_information .style{
+    color: #fdca19;
+}
+
+.burger_information span{
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+ .infomation{
+    width: 455px;
+    height: 305px;
+    margin: 42px 85px 45px 70px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+ }
+ .menu_container{
+    width: calc(50% - 25px);
+    height: calc(34% - 10px);
+    float: left;
+    border-bottom: 1px solid #d5d5d5;
+    position: relative;
+    padding: 23px 0;
+    text-transform: uppercase;
+ }
+
+.menu_container:nth-child(2n){
+    margin-right: 50px; 
+
+}
+.menu_container:nth-child(3),
+.menu_container:nth-child(4){
+    text-transform: none;
+}
+.menu_container:after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #d5d5d5;
+    position: absolute;
+    bottom: -5px;
+    transform: rotate(45deg);
+}
+
+.food_price{
+    color: #999;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.food_name{
+    font-size: 20px;
+}
+
+.button{
+    width: 176px;
+    height: 55px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    bottom: -65px;
+    display: flex;
+    cursor: pointer;
+}
+
+.button span{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+    line-height: 55px;
+}
+
+.button:hover{
+    color: grey;
+}

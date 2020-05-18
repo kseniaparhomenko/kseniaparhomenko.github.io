@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 440px;
+    width: 560px;
+    background: #80cdc6;
+    margin: 0 auto;
+    margin-top: 100px;  
+    position: relative;
+    overflow: hidden;
+}
+
+.clouds {
+    max-width: 340px;
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+
+.water{
+    position: absolute;
+    bottom: 0px;
+}
+
+.wooden_ship{
+    width: 115px;
+    position: absolute;
+    left: 15px;
+    top: 287px;
+}
+
+.world {
+    top: 95px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
