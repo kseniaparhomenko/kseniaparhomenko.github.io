@@ -12,30 +12,33 @@
     margin-top: 100px;  
     position: relative;
     overflow: hidden;
+
 }
 
 .clouds {
     max-width: 340px;
     position: absolute;
     right: 0;
-    top: -7px;
+    top: -40px;
 }
+
 .world {
-    top: 95px;
+    top: 70px;
     width: 100%;
     position: absolute;
     bottom: 0;
+
 }
 
 .wooden_ship{
     width: 115px;
     position: absolute;
     left: 15px;
-    top: 287px;
+    top: 315px;
 }
 .water{
     position: absolute;
-    bottom: 0px;
+    bottom: -243px;
 }
 
 
