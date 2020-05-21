@@ -1,0 +1,48 @@
+
+.container {
+    width: 900px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.link_icon {
+    display: block;
+	width:225px;
+	height:225px; 
+    margin-right: 5px;
+    background-image: url(../css_sprites.png);
+    transition: transform 15ms;
+}
+
+.link_icon:hover {
+    transform: translateY(-15px);
+}
+
+.facebook_icon {	
+    background-position: -5px -2px;  
+}
+
+.instagram_icon {
+ background-position: -221px -2px;  
+}
+
+.vk_icon {
+    background-position: -450px -2px;  
+}
