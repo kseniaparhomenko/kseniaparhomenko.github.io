@@ -1,0 +1,272 @@
+/* General */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(../img/bg.png);
+    background-color: #383838;
+    font-family: 'Open Sans';
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--container-width);
+}
+
+h1 {
+    padding: 10px;
+    color: white;
+    font-family: 'Metal Mania';
+    text-transform: uppercase;
+    font-size: 62px;
+    text-align: center;
+}
+
+h2 {
+    margin: 30px 0;
+    width: 100%;
+    color: #eeeeee;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h3 {
+    width: 100%;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.button,
+button {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    width: 150px;
+    background: rgb(221, 0, 1);
+    background: linear-gradient(147deg, rgba(221, 0, 1, 1) 0%, rgba(254, 52, 109, 1) 100%);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+}
+
+.button:hover,
+button:hover {
+    background: rgb(221, 0, 1);
+    background: linear-gradient(323deg, rgba(221, 0, 1, 1) 0%, rgba(254, 52, 109, 1) 100%);
+}
+
+input {
+    padding: 8px;
+    margin-right: 2px;
+}
+
+
+/* Header */
+header {
+    background-image: url(../img/bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    transition: 150ms;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: #b91a34;
+}
+
+header>.container {
+    padding: 80px 0 120px;
+}
+
+header .button {
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+/* Tour */
+#tour>.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: calc(var(--container-width) + 20px);
+}
+
+.tour-card {
+    position: relative;
+    margin: 10px;
+    padding: 35px 10px 80px;
+    width: calc(25% - 20px - 20px);
+    color: white;
+    background-size: cover;
+}
+
+.tour-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tour-card.madrid {
+    background-image: url(../img/tour/madrid.jpg);
+}
+
+.tour-card.turin {
+    background-image: url(../img/tour/turin.jpg);
+}
+
+.tour-card.hamburg {
+    background-image: url(../img/tour/hamburg.jpg);
+}
+
+.tour-card.krakow {
+    background-image: url(../img/tour/krakow.jpg);
+}
+
+.tour-card * {
+    position: relative;
+    z-index: 1;
+}
+
+.tour-card .button {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tour-card p {
+    line-height: 1.5;
+}
+
+.tour-date {
+    font-style: italic;
+}
+
+/* Gallery */
+#gallery .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: calc(var(--container-width) + 20px);
+
+}
+
+#gallery .photo {
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+}
+
+#gallery .photo a,
+#gallery .photo img {
+    width: 100%;
+    background-size: cover;
+}
+
+/* Subscribe */
+#subscribe {
+	position: relative;
+    padding: 60px 0 80px;
+    background-image: url(../img/bg-02.jpg);
+    background-position: center;
+    color: white;
+    margin-top: 30px;
+}
+
+#subscribe:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#subscribe *{
+	position: relative;
+	z-index: 1;
+}
+
+
+.pitch {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#subscribe button{
+	width: auto;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	padding-top: 20px;
+	color: white;
+}
+
+.social{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -15px 20px;
+}
+
+.social a{
+	margin: 0 5px;
+}
+
+.social i{
+	color: white;
+	transition: 150ms;
+}
+
+.social a:hover i{
+	color: #e0140e;
+}
+
+.copyright{
+	font-size: 13px;
+}
