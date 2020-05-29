@@ -16,3 +16,4 @@
 # kseniaparhomenko.github.io/Лекція9/index.html
 # kseniaparhomenko.github.io/PR_8.1/index.html
 # kseniaparhomenko.github.io/PR_8.2/index.html
+# kseniaparhomenko.github.io/Практична_2/index.html
