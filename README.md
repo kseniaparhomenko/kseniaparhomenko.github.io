@@ -17,3 +17,7 @@
 # kseniaparhomenko.github.io/PR_8.1/index.html
 # kseniaparhomenko.github.io/PR_8.2/index.html
 # kseniaparhomenko.github.io/Практична_2/index.html
+# kseniaparhomenko.github.io/10.1/index.html
+# kseniaparhomenko.github.io/10.2/index.html
+# kseniaparhomenko.github.io/10.3/index.html
+# kseniaparhomenko.github.io/10.4/index.html
