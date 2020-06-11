@@ -21,5 +21,5 @@
 # kseniaparhomenko.github.io/10.2/index.html
 # kseniaparhomenko.github.io/10.3/index.html
 # kseniaparhomenko.github.io/10.4/index.html
-# kseniaparhomenko.github.io/ККР_варіант16/index.html
+# kseniaparhomenko.github.io/ККР_варіант16/index..html
 # kseniaparhomenko.github.io/ККР_варіант16_species/index.html
