@@ -23,3 +23,4 @@
 # kseniaparhomenko.github.io/10.4/index.html
 # kseniaparhomenko.github.io/ККР_варіант16/index.html
 # kseniaparhomenko.github.io/ККР_варіант16_species/index.html
+# kseniaparhomenko.github.io/lr_9/index.html
