@@ -29,7 +29,7 @@ color: #373737;
 background:#d1d1d1;
 }
 
-header:after,.additional:after, .btn:after, .service:after, .photo_lion:after, .pfotograf:after,.text:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+header:after,.additional:after,.container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
 content: "";
 display: table;
 clear: both;
@@ -293,6 +293,7 @@ nav ul {
 margin-bottom: 30px;
 width: 65%;
 float: left;
+
 }
 
 /* правuй контейнер */
