@@ -145,6 +145,7 @@ header .menu{
 }
 .information_site {
      background-color: white;
+
 }
 .link{
   font-weight: bold;
@@ -224,7 +225,7 @@ margin-bottom: 30px;
 
 .additional{
     background-color:white;
-
+    margin-bottom: 30px;
 }
 .add{
     width: auto;
@@ -235,6 +236,7 @@ margin-bottom: 30px;
   padding: 10px 0;
   color: white;
   font-style: italic;
+    margin-bottom: 30px;
 }
 .additional_ button{
 border-radius: 5px 5px;
@@ -245,11 +247,12 @@ border-radius: 5px 5px;
     text-align: center;
 }
 .additional h3{
-
+    margin-bottom: 30px;
     color: #CD853F;
 }
 .additional li{
     color: grey;
+    margin-bottom: 30px;
 }
 nav ul {
           display: flex;
@@ -273,7 +276,8 @@ nav ul {
 .line{
     border-left: 2px solid #ccc;
     margin-left: 20px;
-    padding-left: 10px;
+   padding-left: 10px;
+
 }
 .im {
   width: 15px;
