@@ -150,20 +150,19 @@ header .menu{
   font-weight: bold;
 }
 .text{
-      width: 600px; 
-    margin: 20px; 
+      margin-bottom: 30px;
 }
 h2{
    margin: 10px 10px;  
 }
 .world {
-width: 250px;
-height: 170px;
+margin-bottom: 30px;
     text-align: right;
      margin: -90px 0 0 555px; 
 }
 .btn{
     margin:  0 0 0 20px;
+margin-bottom: 30px;
 
 }
 .btn button{
@@ -189,7 +188,7 @@ background-color: green;
   display: flex;
   flex-wrap: wrap;  
   justify-content: space-between;
-  width: 800px;
+  margin-bottom: 30px;
 }
 .one-item,
 .two-item,
@@ -198,23 +197,22 @@ background-color: green;
 {
    max-width: 455px;
    margin-left: 5px;
+margin-bottom: 30px;
 }
 .service-item{
     flex:1 ;
+margin-bottom: 30px;
 }
 .img-holidays img{
-   
-  width: 350px;
-  height: 200px;
+   margin-bottom: 30px;
 }
 .text_{
-  width: 350px;
+  margin-bottom: 30px;
   margin: 22px 0 45px 0; 
+
 }
 .btn1{
-width: 350px;
-margin:5px;
-  height: 41px;
+margin-bottom: 30px;
   color: #fff;
   font-weight: bold;
   text-align: center;
@@ -289,7 +287,7 @@ float: left;
 
 /* правuй контейнер */
 aside {
-width: 35%;
+margin-bottom: 30px;
 float: right;
 }
 .small_block{
@@ -313,8 +311,7 @@ color: black;
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
-    height: 20px;
-    width: auto;
+    margin-bottom: 30px;
     }
 
 .subscribe-form1 p{
@@ -330,8 +327,7 @@ color: black;
   background: green;
   position: relative;
   margin: 10px 0 20px 40px;
-  width: 170px;
-  height: 23px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .button::after{
@@ -364,12 +360,13 @@ text-align: center;
   border: 1px solid white;
   margin: 20px 0 0 0;
   height: 0;
+  margin-bottom: 30px;
 }
 .line3{
   border: 1px solid grey;
   margin: 20px 0 20px 0;
   height: 0;
-  width: 920px;
+  margin-bottom: 30px;
 }
 .highlight{
   font-weight: bold;
@@ -398,7 +395,7 @@ text-align: center;
 border-bottom: 1px solid #EBEBE3;
 margin-right: 0;
 }
-/* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*/
+
 .posts-list, aside {
 width: 100%;
 float: none;
