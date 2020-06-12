@@ -1,0 +1,296 @@
+:root {
+    --main-bg-color: white;
+    --accent-color: #00CED1;
+    --text-color: grey;
+    --hadding-color: black;
+}
+
+
+/* ----- Смартфони----------- */
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    width: 100%;
+    height: 100%;
+    color: var(--text-color);
+    box-sizing: border-box;
+}
+
+/* General */
+.container {
+    position: relative;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+}
+
+h2,
+h3,
+h4 {
+    color: var(--hadding-color);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 150ms;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+.button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #fa5ba5;
+    color: white;
+    transition: background-color 150ms;
+}
+
+.button:hover {
+    color: white;
+    background-color: #cb4684;
+}
+
+/* Header */
+header {
+    padding: 15px 0;
+    background-color: var(--main-bg-color);
+
+}
+
+header .brand {
+    color: var(--accent-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header li {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+/* Introdaction */
+.jumbotron {
+    padding: 40px 0;
+    background-image: url(../img/jumbotron.jpg);
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Services */
+.services {
+    margin-top: 20px;
+}
+
+.services .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services .service {
+    margin-top: 20px;
+}
+
+/* Blog */
+.blog {
+    padding: 20px 0;
+    background-color: #fcfcfc;
+
+}
+
+.blog .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blog .post {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    color: #b7c5d8;
+    background-color: #38404b;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .brand {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+footer nav {
+    margin-top: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer li {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer a {
+    color: #b7c5d8;
+}
+
+footer .copyright {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #cfd1d2;
+}
+
+/* ----- Планшети ----------- */
+@media only screen and (min-width: 768px) {
+
+    /* General */
+    .container {
+        max-width: 720px;
+    }
+
+    .button {
+        padding: 12px 15px;
+    }
+
+    /* Header */
+    header {
+        background-color: var(--main-bg-color);
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .brand {
+        color: var(--accent-color);
+        font-size: 20px;
+
+    }
+
+    header nav {
+        margin-top: 0;
+        margin-bottom: 20px;
+
+    }
+
+    /* Services */
+    .services {
+        margin-top: 30px;
+    }
+
+    .services h2 {
+        width: 100%;
+    }
+
+    .services .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .services .service {
+        margin-top: 20px;
+        width: calc(100% / 3 - 20px);
+        padding: 0 10px;
+    }
+
+    /* Introdaction */
+    .jumbotron .button {
+        margin-top: 20px;
+    }
+
+    /* Blog */
+
+    .blog .post {
+        position: relative;
+        text-align: left;
+        padding-left: 250px;
+        height: 180px;
+    }
+
+    .blog .post img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 220px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (min-device-width: 992px) {
+
+    /* General */
+    .container {
+        max-width: 960px;
+    }
+
+    .jumbotron {
+        padding: 80px 0;
+        background-position: center top;
+    }
+}
+
