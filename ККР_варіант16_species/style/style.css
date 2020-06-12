@@ -324,12 +324,13 @@ color: black;
 
 .subscribe-form1 p{
   margin-left: 50px;
+    margin-bottom: 30px;
 }
 .subscribe-form {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    height: 40px;
+    height: 40px;    margin-bottom: 30px;
     }
 .button {
   background: green;
@@ -337,6 +338,7 @@ color: black;
   margin: 10px 0 20px 40px;
   margin-bottom: 30px;
   text-align: center;
+    margin-bottom: 30px;
 }
 .button::after{
   content: '';
