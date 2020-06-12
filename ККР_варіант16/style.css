@@ -264,6 +264,7 @@ background-color: green;
     display: flex;
     flex-wrap:  wrap;     
     margin: 20px;
+margin-bottom: 30px;
 }
 .one-item,
 .two-item,
