@@ -1,427 +1,218 @@
-*, *:after,
- *:before {
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-transition: .5s ease-in-out;
-}
-ul {
-list-style: none;
-}
-a {
-text-decoration: none;
-outline: none;
-}
-img {
-display: block;
-width: 100%;
-}
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Playfair Display';
-font-weight: normal;
-letter-spacing: 1px;
-}
-body {
-font-family: 'Open Sans', arial, sans-serif;
-font-size: 14px;
-line-height: 1;
-color: #373737;
-background:#d1d1d1;
-}
-
-header:after,.container,.additional,.container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
-content: "";
-display: table;
-clear: both;
-} 
-
-.container {
-margin: 0 auto;
-width: 100%;
-max-width: 1450px;
-padding: 0 15px;
-} 
-header {
-width: 100%;
-background: #d1d1d1;
-box-shadow: 3px 3px 1px rgba(0,0,0,.05);
-padding: 15px 0;
-margin-bottom: 30px;
-position: relative;
-}
-/* логотип */
-.logo {
-display: block; 
-float: left;
-}
-header .crescent{
-  width: 50px;
-  height: 50px;
-    border-radius: 50%;
-  box-shadow: 7px 7px 0 0 green;
-    transform: rotate(160deg);    
-    margin: 20px 0 -45px  20px;
-}
-
-.site_name_big{
-    color: black;
-     font-size: 20px;
-    text-align: left;
-    font-weight: bold;
-    margin: 0 0 0  25px;
-}
- .site_name_small {
-    color: gray;
-    font-size: 10px;
-    text-align: left;
-     margin: 0 0 0  25px;
-   }
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NATURETOUR</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header>
+   	<div class="conteine">
+		<div class="crescent"></div>
+			<p class="site_name_big">NATURETOUR</p>
+			<p class="site_name_small">SPEND HOLIDAYS WITH NATURE</p>
+			<p class="call">For Friendly, Expert advice call</p>
+			<p class="number">12(0)1234567890</p>
+		  <nav>
+                    <ul class="menu">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">HOW TO BOOK</a></li>
+                        <li><a href="#">FAQS</a></li>
+                        <li><a href="#">VISIT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+        </nav>
+        <div class="menu_2">
+		 		 <ul>
+		 			<li><a href="#">DESTINATION</a></li>
+		 			<li><a href="#">SPECIES</a></li>
+		 			<li><a href="#">TOUR TYPES</a></li> 			
+		 			<li><a href="#">TOUR LEADERS</a></li>
+		 			<li><a href="#">LATE AVAILABILITY</a></li>
+		 			<li><a href="#">LATEST NEWS</a></li>
+		 			<li><a href="#">ABOUT US</a></li>
+		 		 </ul>
+		</div>
+    </div>
+  </header>
+  <div class="container">
 
 
-header .call, .number{
-    color: black;
-    font-size: 10px;
-    text-align: right;
-     margin: -30px 0 0 0;
-     float: right;
-margin-left: 46px;
-display: inline-block;
-position: relative;
-    }
- header .number{   
-    font-size: 20px;
-    margin: 0 0 10px 0;
- }
+  <div class="posts-list">
+		
+					<div class="home"><p>Home > 
+						<a class="Species">Species</a></p></div>
+						<div class="line2"></div>
+						<form action="" method="get" class="subscribe-form1">
+					<p>HOLIDAY SEARCH </p>
+                    <p><select name="Select_region" autofocus="Select region">                    	
+                    	<option  value="s1">Select region         </option>
+                    	<option  value="s1">Volyn                 </option>
+                    </select></p>
+                            <p><select name="Select category" autofocus="Select category">
+                    	<option  value="s1">Select Category</option>
+                    </select></p>
+                    <p><select name="Select date" autofocus="Select date">
+                    	<option  value="s1">Select Date            </option>
+                    </select></p>
+                    <p><select name="Select Price" autofocus="Select Price">
+                    	<option  value="s1">Select Price      </option>
+                    </select></p>
+                
+                <div class="button">
+				 		<button>SEARCH HOLIDAYS <a class="s">&#8594</a></button>
+		             </div>
+		             </form>
 
-header .menu{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:flex-end;
-    margin: 40px;
-}
-
-/* меню */
-.menu a{
-    text-decoration: none;
-}
-
-.menu_2{
-  width: auto;
-  margin: 20px auto;
-  list-style-type: none;
-  border-radius: 5px 5px;
-  text-align: center;
-  background-color:green;
-  padding: 10px 0;
-  text-decoration: none;
-  text-shadow: 0 5px 6px black;
-}
-
-.menu_2 li{
-  display: inline;
-}
-
-.menu_2 a{
-  text-decoration: none;
-  color: #fff;
-  padding: 5px 15px;
-  text-decoration: none;
-  font-weight: bold;
-  width: 100px; 
-}
-
-.menu_2 a:hover{
-  border-radius: 5px 5px;
-  background-color: grey;
-  text-decoration: none;
-}
-.home{
-  margin: 0 0 20px 40px;
-  color: green;
-}
-.Species {
-  color: green;
-  margin-bottom: 35px;
-
-}
-
-
-.additional{
-    background-color:white;
-
-}
-.add{
-    width: auto;
-  margin: 20px auto;
-  border-radius: 5px 5px;
-  text-align: center;
-  background-color:grey;
-  padding: 10px 0;
-  color: white;
-  font-style: italic;
-}
-.additional_ button{
-border-radius: 5px 5px;
-    background-color: grey;
-    color: white;
-    font-weight: bolder;
-    height: 40px;
-    text-align: center;
-}
-.additional h3{
-
-    color: #CD853F;
-}
-.additional li{
-    color: grey;
-}
-nav ul {
-          display: flex;
-          justify-content: space-between;
-          max-width: 1000px;
-
-          list-style:none;
-          padding: 0;
-          margin: 0;
-        }
-        nav li {
-          max-height: 300px;
-          display: inline-block;
-        }
-.additional_ nav{
-    margin: 20px;
-}
-.retreat{
-    margin: 10px 0 0 0;
-}
-.line{
-    border-left: 2px solid #ccc;
-    margin-left: 20px;
-    padding-left: 10px;
-}
-.im {
-  width: 15px;
-  height: 15px;
-}/* лiвuй контейнер */
-.posts-list {
-margin-bottom: 30px;
-width: 65%;
-float: left;
-}
-.information_site {
-     background-color: white;
-     margin-bottom: 30px;
-}
-.link{
-  font-weight: bold;
-}
-.text{
-      width: 600px; 
-    margin: 20px; 
-    margin-bottom: 35px;
-
-}
-h2{
-   margin: 10px 10px;  
-}
-.world {
-margin-bottom: 35px;
-    text-align: right;
-     margin: -90px 0 0 555px; 
-}
-.line{
-    border-left: 2px solid #ccc;
-    margin-left: 20px;
-    padding-left: 10px;
-margin-bottom: 35px;
-}
-
-.line2 {
-  border: 1px solid white;
-  margin: 20px 0 0 0;
-  margin-bottom: 35px;
-}
-.btn{
-    margin:  0 0 0 20px;
-
-}
-.btn button{
-    background-color: white;
-    border: 1px solid grey;
-    color: black;
-    float: left;
-    width: 270px;
-    height: 50px;
-    cursor: pointer;
-    font-weight: bolder; 
-  border-radius: 5px 5px;
- text-shadow: 0 5px 5px black;
-}
-.btn1 button{
-    background-color: green;
-    color: white;   
-}
-button:active{
-background-color: green;
-}
-.service{
-  display: flex;
-  flex-wrap: wrap;  
-  justify-content: space-between;
- margin-bottom: 35px;
-}
-.one-item,
-.two-item,
-.three-item,
-.four-item
-{
-   max-width: 455px;
-   margin-left: 5px;
-}
-.service-item{
-    flex:1 ;
-}
-.img-holidays img{
-   
-  width: 350px;
-  height: 200px;
-}
-.text_{
-  width: 350px;
-  margin: 22px 0 45px 0; 
-}
-.btn1{
-width: 350px;
-margin:5px;
-  height: 41px;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  line-height: 41px;  
-  background:green;
-  border-radius: 10px;
-  cursor: pointer;
-}
-/* правuй контейнер */
-aside {
-margin-bottom: 35px;
-float: right;
-
-}
-.small_block{
-background-color: #fffdd0;
-margin: 87px 0 0 0;
-margin-bottom: 35px;
-
-}
-.title_small{
-    margin-left:20px;
+		<div class="information_site">
+		 		 <DIV class="text">
+			      	<h2>SRECIES</h2>
+			      	<p>With 25 years experience of organising group holidays and an unrivalled</p><p> knowledge of wildlife our selection of tours represents the very best</p><p> wildlife viewing opportunities at an unbeatable price.</p>
+			      </DIV>
+			      <div class="world">
+			      		<img src="світ.png" alt ="picture" >
+				   </div>
+				   <div class="line3"></div>
+	      			<div class="service">
+			       <div class="service-item one-item">
+				   <div class="img-holidays">
+					<img src="birds.png">
+				  </div>
+				   <div class="text_">
+					<h3>BIRDS HOLIDAYS</h3>
+					<p>We offer one of largest selections of professionally organised, group bird watching birds holidays and wildlife tours around worlds. Birts holidays.</p>
+				  </div>
+				  <div class="btn1">FIND OUT MORE  ></div>
+			      </div>
+	 	  		    <div class="service-item two-item">
+					   <div class="img-holidays">
+						<img src="bears.png">
+					   </div>
+					   <div class="text_">
+						<h3>BEARS HOLIDAYS</h3>
+						<p>Our holidays include a number of specially designed bear watching holidays which will provide you with unique opportunities to observe these engaging mammals.</p>
+				      </div>	
+				       <div class="btn1">FIND OUT MORE  ></div>
+		       		</div>
+		       		  <div class="service-item  three-item">
+					   <div class="img-holidays">
+						<img src="tiger.png">
+					   </div>
+					   <div class="text_">
+						<h3>TIGER HOLIDAYS</h3>
+						<p>Natureyour has 20 years experience of leading Tiger holidays to the Indian subcontinent and offers the widest rangr of holidays a available.</p>
+				      </div>
+				       <div class="btn1">FIND OUT MORE  ></div>
+				     </div>
+				      <div class="service-item  four-item">
+					   <div class="img-holidays">
+						<img src="mammal.png">
+					   </div>
+					   <div class="text_">
+						<h3>MAMMAL HOLIDAYS</h3>
+						<p>Our range of wildlife holidays offering you the opportunity to see the world's most sought after mammals can't be beaten.</p>
+				      </div>
+				       <div class="btn1">FIND OUT MORE  ></div>
+				      </div>	
+				     <div class="service-item  four-item">
+					   <div class="img-holidays">
+						<img src="mammal.png">
+					   </div>
+					   <div class="text_">
+						<h3>WHALES & DOLPHIN HOLIDAYS</h3>
+						<p>From UK day trips to 140day cruiss, our ptogramme of whale and dolphin watching holidays is unbeatable... and our selection is expanding fast.</p>
+				      </div>
+				       <div class="btn1">FIND OUT MORE  ></div>
+				      </div>
+		       		<div class="service-item  four-item">
+					   <div class="img-holidays">
+						<img src="mammal.png">
+					   </div>
+					   <div class="text_">
+						<h3>WILD FLOWER HOLIDAYS</h3>
+						<p>Whether tou simpl want to enjoy the beauty of frowers to hust for particular species we will have a botanical holiday to suit you. Wild flover holidays.</p>
+				      </div>
+				       <div class="btn1">FIND OUT MORE  ></div>
+				      </div>
+		 		</div>
+ 	   </div>    
     
-}
-.title_small li{
-color: green;
-}
-.title_small span{
-color: black;
-}
+  </div> <!-- конец div class="posts-list"-->
 
-
-.subscribe-form1 {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    height: 20px;
-    width: auto;
-    margin-bottom: 35px;
-
-    }
-
-.subscribe-form1 p{
-  margin-left: 50px;
-  margin-bottom: 35px;
-
-}
-.subscribe-form {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    height: 40px;
-    }
-.button {
-  background: green;
-  position: relative;
-  margin: 10px 0 20px 40px;
-  width: 170px;
-  height: 23px;
-  text-align: center;
-}
-.button::after{
-  content: '';
-  position: absolute;
-  right: -30px;
-  top: 0px;
-  border:12px solid transparent;
-  border-left: 20px solid green;
-  text-align: center;
-
-}  
-.button button{
-color: white;
-width: 170px;
-  height: 23px;
-background-color: green;
-text-align: center;
-  font-weight: bolder; 
-}
-.s{
-  color: #013220;
-}
-.submit{
-  background-color: green;
-  color: white; 
-  margin-left: 5px;
-}
-
-.line3{
-  border: 1px solid grey;
-  margin: 20px 0 20px 0;
-
-  margin-bottom: 35px;
-}
-.highlight{
-  font-weight: bold;
-}
-.copyright{
-  font-size: 13px;
-  text-align: center;
-}
-footer {
-padding: 30px 0;
-background: #d1d1d1;
-color: black;
-}
-
-@media (max-width: 768px) {
-.nav-toggle {
-display: block;
-}
-header {
-padding: 10px 0;
-}
-
-#menu li {
-display: block;
-text-align: center;
-border-bottom: 1px solid #EBEBE3;
-margin-right: 0;
-}
-/* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*/
-.posts-list, aside {
-width: 100%;
-float: none;
-}
-
-#menu {
-top: 118px;
-}
+  <aside>
+ 	   <div class="small_block line">
+ 	   	<div class="title_small"><p>SPESIES</p>
+				<ul>
+ 	   				<li><span> Birds</span></li>
+ 	   				<li><span>Mammals</span></li>
+ 	   				<li><span>Butterfies</span></li>
+ 	   				<li><span>Dragonflies</span></li>
+ 	   				<li><span>Wild Flowers</span></li>
+ 	   	            </ul>  
+ 	   	            </div>  
+                <div class="line2"></div>
+                <div class="title_small_3"><p>NEWSELETTER SIGNUP</p>
+ 	   	<p>New tours special offers extra departures ans latest news</p>
+ 	   	 <form action="" method="post" class="subscribe-form">
+                    <input type="email" name="email" placeholder="Enter Email...">
+                   </form>
+                <form action="" method="post" class="subscribe-form">
+                 <input type="name" name="name" placeholder="Enter Name...">
+                    <button type="submit" class="submit">SING UP</button>
+                </form>
+ 	   </div> 	
+ 	    	</div>
+</aside>
+</div> <!-- end div class="container"-->
+<div class="container">
+     <div class="additional">
+ 	   	<p class="add">Naturetour has 25 years experience in operating wildlife holidays. Contact Us for friendly traval advice.</p> 
+ 	   	<div class="">
+ 	   		<nav>
+		      <ul>
+		        <li><h3>FOLLOW US ON TWITTER <img class="im" src="tw.png"></h3>4 days ago The new website
+		        <p> is now live. We hope you enjoy it and</p> 
+		        <p> any feedback is welcome.</p>
+		        	<button>JOIN ON FACEBOOK </button></li>
+		        <li class="line"><h3>QUICK LINKS</h3>
+		        	<p>Holidays by destination</p>
+		        	<p>Holidays by species</p>
+		        	<p>Holidays by tour type</p>
+		        	<p>Late availability</p>
+		        	<p>Tour leaders</p>
+		        	<li class="retreat"><p>How to book</p>
+		        	<p>FAQs</p>
+		        	<p>Visit Us</p>
+		        	<p>Term & conditions</p>
+		        	<p>Privacy Policy</p></li>
+		        	<li class="retreat"><p>Latest news</p>
+		        	<p>Request news</p>
+		        	<p>Subscribe to newsletter</p>
+		        	<p>Contact Us</p></li>
+		        </li>
+		        <li class="line"><h3>CONTACT US</h3>
+		        	<p>Tel: 1234567890</p>
+		        	<p>Email: info@naturetour.com</p>
+		        	<p></p>
+		        	<p></p>
+		        	<p>Naturetour, Yout City,</p>
+		        	<p>Your state, 123 456 789</p>
+		        </li>
+		      </ul>
+		    </nav>
+ 	   	</div>
+ 	   </div>
+<footer>
+  
+	<p class="copyright"><span class="highlight">© Naturetour 2010</span></p>
+	<p class="copyright">No portion of whis website may be reproducet withour the prior writen consent of NatureTour. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+$('.nav-toggle').on('click', function(){
+$('#menu').toggleClass('active');
+});
+</script>
+</body>
+</html>
