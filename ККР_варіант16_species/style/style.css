@@ -340,7 +340,6 @@ color: black;
   margin: 10px 0 20px 40px;
   margin-bottom: 30px;
   text-align: center;
-    margin-bottom: 30px;
 }
 .button::after{
   content: '';
@@ -359,6 +358,7 @@ width: 170px;
 background-color: green;
 text-align: center;
   font-weight: bolder; 
+margin-bottom: 30px;
 }
 .s{
   color: #013220;
