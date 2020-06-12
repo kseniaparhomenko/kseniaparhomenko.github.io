@@ -143,75 +143,7 @@ header .menu{
 .Species {
   color: green;
 }
-.information_site {
-     background-color: white;
 
-}
-.link{
-  font-weight: bold;
-}
-.text{
-      margin-bottom: 30px;
-}
-h2{
-   margin: 10px 10px;  
-}
-.world {
-margin-bottom: 30px;
-    text-align: right;
-     margin: -90px 0 0 555px; 
-}
-.btn{
-    margin:  0 0 0 20px;
-margin-bottom: 30px;
-
-}
-.btn button{
-    background-color: white;
-    border: 1px solid grey;
-    color: black;
-    float: left;
-    width: 270px;
-    height: 50px;
-    cursor: pointer;
-    font-weight: bolder; 
-  border-radius: 5px 5px;
- text-shadow: 0 5px 5px black;
-}
-.btn1 button{
-    background-color: green;
-    color: white;   
-}
-button:active{
-background-color: green;
-}
-.service{
-  display: flex;
-  flex-wrap: wrap;  
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-.one-item,
-.two-item,
-.three-item,
-.four-item
-{
-   max-width: 455px;
-   margin-left: 5px;
-margin-bottom: 30px;
-}
-.service-item{
-    flex:1 ;
-margin-bottom: 30px;
-}
-.img-holidays img{
-   margin-bottom: 30px;
-}
-.text_{
-  margin-bottom: 30px;
-  margin: 22px 0 45px 0; 
-
-}
 .btn1{
 margin-bottom: 30px;
   color: #fff;
@@ -292,10 +224,80 @@ margin-bottom: 30px;
 width: 65%;
 float: left;
 }
+.information_site {
+     background-color: white;
+    margin-bottom: 35px;
+}
+.link{
+  font-weight: bold;
+}
+.text{
+      margin-bottom: 30px;
+}
+h2{
+   margin: 10px 10px;  
+}
+.world {
+margin-bottom: 30px;
+    text-align: right;
+     margin: -90px 0 0 555px; 
+}
+.btn{
+    margin:  0 0 0 20px;
+margin-bottom: 30px;
+
+}
+.btn button{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    float: left;
+    width: 270px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder; 
+  border-radius: 5px 5px;
+ text-shadow: 0 5px 5px black;
+}
+.btn1 button{
+    background-color: green;
+    color: white;   
+}
+button:active{
+background-color: green;
+}
+.service{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.one-item,
+.two-item,
+.three-item,
+.four-item
+{
+   max-width: 455px;
+   margin-left: 5px;
+margin-bottom: 30px;
+}
+.service-item{
+    flex:1 ;
+margin-bottom: 30px;
+margin-bottom: 30px;
+}
+.img-holidays img{
+   margin-bottom: 30px;
+}
+.text_{
+  margin-bottom: 30px;
+  margin: 22px 0 45px 0; 
+margin-bottom: 30px;
+}
 
 /* правuй контейнер */
 aside {
-margin-bottom: 30px;
+margin-bottom: 35px;
 float: right;
 }
 .small_block{
