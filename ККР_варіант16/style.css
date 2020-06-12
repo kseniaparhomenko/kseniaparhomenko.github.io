@@ -140,96 +140,6 @@ header .menu{
   margin: 0 0 20px 40px;
   color: green;
 }
-.photo_lion,
-.information_site {
-     background-color: white;
-
-}
-.photo_lion img {
-    width: 800px;
-    height: 260px;  
-    margin: 30px;
-}
-.photo_lion {    
-    background-position: left 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.link{
-  font-weight: bold;
-}
-.text{
-      width: 600px; 
-    margin: 20px; 
-}
-h2{
-   margin: 5px 5px;  
-}
-.pfotograf {
-width: 260px;
-height: 200px;
-    text-align: right;
-    margin: -102px 0 0 555px;  
-}
-.btn{
-    margin:  0 0 0 20px;
-
-}
-.btn button{
-    background-color: white;
-    border: 1px solid grey;
-    color: black;
-    float: left;
-    width: 270px;
-    height: 50px;
-    cursor: pointer;
-    font-weight: bolder; 
-  border-radius: 5px 5px;
- text-shadow: 0 5px 5px black;
-}
-.btn1 button{
-    background-color: green;
-    color: white;   
-}
-button:active{
-background-color: green;
-}
-.delta{
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 70px solid green;
-    margin: 0 0 0 110px;
-}
-.service{
-    display: flex;
-    flex-wrap:  wrap;     
-    margin: 20px;
-}
-.one-item,
-.two-item,
-.three-item,
-.four-item,
-.fife-item,
-.six-item
-{
-    max-width: 280px;    
-    margin-top: -10px;
-}
-.service-item{
-    flex-grow:3 ;
-}
-.img-holidays img{
-    width: 250px;
-    height: 130px;  
-}
-.text_{
-    width: 90%;
-    margin: 22px 0 45px 0; 
-}
-
 .additional{
     background-color:white;
 
@@ -295,6 +205,91 @@ width: 65%;
 float: left;
 
 }
+
+.photo_lion,
+.information_site {
+     background-color: white;
+
+}
+.photo_lion img {
+    margin-bottom: 35px;
+}
+
+.link{
+  font-weight: bold;
+}
+.text{
+      width: 600px; 
+    margin: 20px; 
+}
+h2{
+   margin: 5px 5px;  
+}
+.pfotograf {
+    text-align: right;
+    margin: -102px 0 0 555px; 
+margin-bottom:30px; 
+}
+.btn{
+    margin:  0 0 0 20px;
+
+}
+.btn button{
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    float: left;
+    width: 270px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder; 
+  border-radius: 5px 5px;
+ text-shadow: 0 5px 5px black;
+}
+.btn1 button{
+    background-color: green;
+    color: white;   
+}
+button:active{
+background-color: green;
+}
+.delta{
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 70px solid green;
+    margin: 0 0 0 110px;
+}
+.service{
+    display: flex;
+    flex-wrap:  wrap;     
+    margin: 20px;
+}
+.one-item,
+.two-item,
+.three-item,
+.four-item,
+.fife-item,
+.six-item
+{
+    max-width: 280px;    
+    margin-top: -10px;
+}
+.service-item{
+    flex-grow:3 ;
+}
+.img-holidays img{
+    width: 250px;
+    height: 130px;  
+}
+.text_{
+    width: 90%;
+    margin: 22px 0 45px 0; 
+}
+
+
+
 
 /* правuй контейнер */
 aside {
