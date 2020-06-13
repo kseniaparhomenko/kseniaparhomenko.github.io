@@ -419,17 +419,10 @@
 				if ( i != 0 ) $(this).hide(0);
 			});
 			tabs.on('click', '.tabs a', function(e){
-				/* Стандартна обробка кліка по посиланню */
 				e.preventDefault();
-
-				/* Дізнаємося значення ID блоку, який потрібно відобразити */
 				var tabId = $(this).attr('href');
-
-				/* Видаляємо всі класи у якорів і ставимо active поточній вкладці */
 				$('.tabs a',tabs).removeClass();
 				$(this).addClass('active');
-
-				/*Ховаємо вміст всіх вкладок і відображаємо вміст нажатої */
 				$('.tabs-content > div', tabs).hide(0);
 				$(tabId).show();
 			});
