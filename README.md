@@ -23,4 +23,4 @@
 # kseniaparhomenko.github.io/10.4/index.html
 # kseniaparhomenko.github.io/nature/index.html
 # kseniaparhomenko.github.io/lr_9/index.html
-# kseniaparhomenko.github.io/animations/index.html
+# kseniaparhomenko.github.io/animation/index.html
